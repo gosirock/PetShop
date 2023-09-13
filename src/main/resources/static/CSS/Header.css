@@ -1,0 +1,76 @@
+
+body{
+	margin:0;
+}
+
+
+header{
+	padding-top: 20px;
+	position: fixed;
+	width: 100%;
+}
+header:hover{
+	background-color: aliceblue;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+}
+
+#logo{
+	width: 100px;
+	margin-left: 20px;
+	margin-right: 200px;
+}
+
+
+.mainList{
+	margin-left: 100px;
+	margin-right: 200px;
+
+
+}
+
+.mainList > a{
+	margin-top:10px;
+	display: inline-block;
+	padding: 0px 20px 0px 20px;
+	font-size: 23px;
+	color: #477A7B;
+	font-family: 'fot-tsukuardgothic-std';
+	
+}
+
+.sideList{
+	margin-top: 10px;
+}
+.sideList > a{
+	margin-right: 10px;
+	display: inline-block;
+	font-size: 15px;
+	color: #477A7B;
+	font-family: Cambria, Cochin, Georgia;
+}
+
+span{
+	font-size: 25px;
+	color: #477A7B;
+	font-family: Cambria, Cochin, Georgia;
+}
+
+#searchIcon{
+	width: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+#cartIcon{
+	width: 20px;
+	margin-right: 20px;
+	margin-left: 10px;
+}
+
+#mainImage{
+	width: 100%;
+	height: 650px;
+}
